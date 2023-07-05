@@ -50,7 +50,7 @@ const userSchema = mongoose.Schema({
     createdAt: {
         type: Date,
         // TODO: huh problem, calling the function here only, check interms of testing what is stored in DB
-        default: Date.now()
+        default: Date.now
     }
 });
 
